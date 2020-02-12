@@ -4,9 +4,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-          dir ('helloworld.java') {
-            sh 'make'
-        }
+          
+            sh 'uptime'
+        
       }
     }
   }  
